@@ -22,6 +22,6 @@ while guess != number and not(guesses_gone): #Checks whether guesses are gone or
         guesses_gone = True #Guesses are over
 
 if guesses_gone == True: 
-    print('You lost')
+    print('You lost and the number was', number)
 else:
     print('You win!')
